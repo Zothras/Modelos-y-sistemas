@@ -15,9 +15,9 @@ void Prueba()
         numeros.Add(numero);
     }
     int antisumaputa = 0;
-    for (int y = 0; y < numeros.Count; y++)
+    for (int y = 0; y < numeros.Count-1; y++)
     {
-        for (int z = y + 1; z < numeros.Count; z++)
+        for (int z = y + 1; z < numeros.Count-1; z++)
         {
             if (numeros[z] == numeros[y] && antisumaputa != 1)
             {
